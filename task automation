@@ -1,0 +1,20 @@
+import os
+
+# Define test folder (corrected path with raw string)
+test_folder = r"C:\Users\sksan\Desktop\vs code\task automation"
+
+# File types to create
+sample_files = [
+    "car.jpg", "cars.pdf", "Hey Minnale Bgm.mp3", "cars video.mp4",
+]
+
+# Create test files
+if not os.path.exists(test_folder):
+    os.makedirs(test_folder)
+
+for file in sample_files:
+    file_path = os.path.join(test_folder, file)
+    with open(file_path, 'w') as f:
+        f.write("This is a sample file.")
+
+print("Test files created!")
