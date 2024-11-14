@@ -10,9 +10,7 @@ This repository contains the projects and tasks completed during my internship a
 
 - ### Task 2: stock portfolio tracker
 - **Description:**  Create a personal portfolio showcasing your skills,
- projects, and resume. Use HTML for structure, CSS
- for styling, and add a touch of JavaScript for
- interactivity
+ projects, and resume.
 - **Technologies:** Python
 
 - ### Task 3: Task Automation with Python Scripts
